@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.card{
+    background-color: aqua;
+    
+    padding: 50px;
+    border: 10px solid #021408;
+}
+.main {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.caja1 { grid-area: 1 / 1 / 2 / 3; }
+.caja2 { grid-area: 1 / 3 / 2 / 4; }
+.caja3 { grid-area: 1 / 4 / 3 / 5; }
+.caja4 { grid-area: 2 / 1 / 3 / 2; }
+.caja5 { grid-area: 2 / 2 / 3 / 4; } 

@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
-
 }
 body{
     background-color: #edf2f8;
-
     min-height: 50vh;
 }
 
@@ -17,11 +15,8 @@ body{
     grid-template-rows: repeat(5, 2fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    
     margin: 10rem 15%;
     margin-right: 0; 
-    /* margin-left: 15rem;
-    margin-top: 6rem; */
 }
 .card{
     margin: 5px;
@@ -32,29 +27,19 @@ body{
     background-color: hsl(217, 19%, 35%);
     padding: 30px;
 }
-/* .container{
-     display: grid;
-    place-content: center;
-    width: 80%;
-    margin: 5rem 10%; 
-} */
 
 .fulln{
-
     font-weight: 600;
-
 }
 .fullnm{
     color: #ffff;
     font-weight: 600;
-
 }
 .vg{
     opacity: 50%;
 }
 .qom{
     opacity: 70%;
-
 }
 .com{
     margin: 10px 10px;
@@ -64,7 +49,7 @@ body{
 
 .daniel{
     background-color:#733fc8;
-     border-radius: 15px;
+    border-radius: 15px;
     padding: 30px;
     grid-column: 1/4;
     background-image: url(./images/bg-pattern-quotation.svg);
@@ -80,8 +65,7 @@ body{
 .jonathan{
     background-color: #49556b;
     border-radius: 15px;
-     padding: 30px;
-
+    padding: 30px;
 }
 
 .jeanette{
@@ -115,12 +99,9 @@ img{
 }
 
 .user{
-
     align-items: center;
     margin-bottom: 10px;
 }
-
-
 .caja1 { grid-area: 1 / 1 / 2 / 3; }
 .caja2 { grid-area: 1 / 3 / 2 / 4; }
 .caja3 { grid-area: 1 / 4 / 3 / 5; }
